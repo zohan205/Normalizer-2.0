@@ -54,7 +54,7 @@ Normalizer is a multi-threaded Python desktop application designed to clean, pro
 
 You can execute the processing module as raw Python script text tracks directly from your active shell environment terminal:
 ```bash
-python test110.py
+python Normalizer_2.py
 ```
 
 ### Compiling to a Standalone Executable (.exe)
