@@ -24,7 +24,12 @@ Normalizer is a multi-threaded Python desktop GUI application from [https://gith
     ```bash
     python Normalizer_2.py
     ```
-3. Compile to executable:
+3. Install Dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Compile to executable:
     ```bash
     pyinstaller --onefile --noconsole --hidden-import=tkinter.font Normalizer_2.py
     ```
