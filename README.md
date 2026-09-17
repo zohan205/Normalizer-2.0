@@ -62,7 +62,7 @@ python Normalizer_2.py
 To bundle the Python dependencies, internal file pickers, and asset structures into a single desktop execution file that runs on systems without a Python runtime environment installed, execute the following command from your active directory:
 
 ```bash
-pyinstaller --onefile --noconsole --hidden-import=tkinter.font Normalizer_2.py
+pyinstaller --onefile --windowed  filename.py
 ```
 
 *Note: The `--hidden-import=tkinter.font` flag is mandatory to force the compiler tracks to anchor your application graphics layouts cleanly and prevent immediate background operating system launch crashes.*
